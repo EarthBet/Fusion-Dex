@@ -4,10 +4,13 @@ This is a Pokedex for Pokemon Infinite Fusion which lets you filter out and sort
 fusionDex.csv contains the informal Pokedex number used by players of Pokemon Fusion (HeadDexNumber-BodyDexNumber), the head Pokemon's name, the body Pokemon's name, the typing, the base stat total, the individual stats, the abilities, and the weight of every possible Pokemon Fusion (except the few triple-fusions).
 
 fusionSorter.py opens a GUI that allows the user to place filters on the data and change the order in which the data is displayed.
-fusionSorter.py, however, is currently lesser in functionality than Fusion Sorter.ipynb. With fusionSorter.py all text inputs are case sensitive, the entirety of the results are loaded in at once, and closing the results table will close the entire program.
+fusionSorter.py, however, is currently lesser in functionality than Fusion Sorter.ipynb. With fusionSorter.py all text inputs are case sensitive, the entirety of the results are loaded in at once, and closing the results table will close the entire program. It is also missing the ANY option which will be explained below.
 
-Fusion Sorter.ipynb has those three changes fixed and, additionally, it can be run online here: https://colab.research.google.com/github/EarthBet/Fusion-Dex/blob/main/Fusion%20Sorter.ipynb
+FusionSorter.ipynb has those three changes fixed and, additionally, it can be run online here: https://colab.research.google.com/github/EarthBet/Fusion-Dex/blob/main/Fusion%20Sorter.ipynb
 Additionally, it doesn't use pop-up GUIs like fusionSorter.py, instead using features that _I think_ are unique to Jupyter Notebook and cannot be run on normal Python. Or, at least, not as is.
+It has the ANY option.
+
+The ANY option: You can insert a list of Pokemon which will make it so you only see in the results Pokemon that are fused with Pokemon in that list. This can be used to view all Fusions you can get with the Pokemon available to you. You can also print a list of all Pokemon you put into the list so you can reinsert it the next time you use the program.
 
 Things to note
 
